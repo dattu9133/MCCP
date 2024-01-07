@@ -20,6 +20,7 @@ public class UniqueRowsCount {
 
     int uniqueRowsCount = countUniqueRows(matrix);
     System.out.println("Number of unique rows: " + uniqueRowsCount);
+    scanner.close();
   }
 
   static int countUniqueRows(char[][] matrix) {

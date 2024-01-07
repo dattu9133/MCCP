@@ -7,6 +7,7 @@ public class MatchsticksCounter {
     String userInput = scanner.nextLine();
 
     System.out.println("Count of matchsticks for " + userInput + ": " + countMatchsticks(userInput));
+     scanner.close();
   }
 
   static int countMatchsticks(String str) {

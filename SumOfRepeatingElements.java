@@ -20,6 +20,7 @@ public class SumOfRepeatingElements {
 
     int sum = sumOfRepeatingElements(arr, k);
     System.out.println("Sum of elements repeating " + k + " times: " + sum);
+    scanner.close();
   }
 
   static int sumOfRepeatingElements(int[] arr, int k) {

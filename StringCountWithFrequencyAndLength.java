@@ -23,6 +23,7 @@ public class StringCountWithFrequencyAndLength {
 
     int count = countStrings(arr, X, Y);
     System.out.println("Count of strings: " + count);
+    scanner.close();
   }
 
   static int countStrings(String[] arr, int X, int Y) {

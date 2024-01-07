@@ -13,6 +13,7 @@ public class MostFrequentWord {
     String result = mostFrequentWord(s1, s2);
 
     System.out.println("The most frequent word not present in S2 is: " + result);
+    scanner.close();
   }
 
   static String mostFrequentWord(String s1, String s2) {

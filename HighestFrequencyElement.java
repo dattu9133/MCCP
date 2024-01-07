@@ -16,6 +16,7 @@ public class HighestFrequencyElement {
     int result = findHighestFrequencyElement(arr);
 
     System.out.println("The element with the highest frequency is: " + result);
+     scanner.close();
   }
 
   static int findHighestFrequencyElement(int[] arr) {

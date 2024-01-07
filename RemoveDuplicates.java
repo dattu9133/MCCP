@@ -10,6 +10,7 @@ public class RemoveDuplicates {
     String result = removeDuplicates(input);
 
     System.out.println("String after removing duplicates: " + result);
+    scanner.close();
   }
 
   static String removeDuplicates(String input) {
@@ -31,4 +32,5 @@ public class RemoveDuplicates {
 
     return result.toString();
   }
+
 }

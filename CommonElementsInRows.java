@@ -23,6 +23,7 @@ public class CommonElementsInRows {
     }
 
     findCommonElements(matrix);
+     scanner.close();
   }
 
   static void findCommonElements(int[][] matrix) {

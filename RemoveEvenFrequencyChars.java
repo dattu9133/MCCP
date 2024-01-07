@@ -12,6 +12,7 @@ public class RemoveEvenFrequencyChars {
     String result = removeEvenFrequencyChars(str);
 
     System.out.println("Result after removing even frequency characters: " + result);
+    scanner.close();
   }
 
   static String removeEvenFrequencyChars(String str) {
@@ -31,4 +32,5 @@ public class RemoveEvenFrequencyChars {
 
     return result.toString();
   }
+
 }

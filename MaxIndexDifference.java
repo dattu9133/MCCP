@@ -15,6 +15,7 @@ public class MaxIndexDifference {
     }
 
     System.out.println("Output: " + maxDifference(arr));
+    scanner.close();
   }
 
   static int maxDifference(int[] arr) {

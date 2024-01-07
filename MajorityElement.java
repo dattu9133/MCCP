@@ -15,6 +15,7 @@ public class MajorityElement {
     int majorityElement = findMajorityElement(nums);
 
     System.out.println("Element with frequency greater than or equal to n/2: " + majorityElement);
+     scanner.close();
   }
 
   static int findMajorityElement(int[] nums) {
